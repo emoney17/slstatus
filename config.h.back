@@ -67,6 +67,7 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ cpu_perc,  "Cpu %s%% | ", NULL},
 	{ ram_used,  "Mem %s | ",       NULL},
+	{ disk_used, "Ex %s | ",      "/run/media/e/EXT\ DRIVE/"},
 	{ disk_used, "Home %s | ",      "/"},
 	{ datetime, "%s",           "%a %b %d %r" },
 };
