@@ -15,5 +15,5 @@ static const struct arg args[] = {
 	{ ram_perc,  "Mem %s%%", NULL},
 	{ ram_used,  " (%s) | ",       NULL},
 	//{ disk_used, "Home %s | ",      "/"},
-	{ datetime, "[%s]",           "%a %b %d %r" },
+	{ datetime, "%s",           "%a %b %d %r" },
 };
